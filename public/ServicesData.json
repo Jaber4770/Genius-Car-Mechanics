@@ -1,66 +1,66 @@
 [
     {
-        "name": "Car Reapire",
+        "name": "Clutch Replacement",
         "id":1,
         "price": 1000,
         "time": 2,
-        "img": "https://ibb.co/Cz4h1Yg",
+        "img": "https://i.ibb.co/Xb6S2K1/service-1.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Windshield Replacement",
         "id":2,
         "price": 2000,
-        "time": 2,
-        "img": "https://ibb.co/B2yfRrt",
+        "time": 1,
+        "img": "https://i.ibb.co/5hr1Vn6/service-2.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Engine Work",
         "id":3,
         "price": 3000,
-        "time": 2,
-        "img": "https://ibb.co/nwV71SN",
+        "time": 1.5,
+        "img": "https://i.ibb.co/x2c1gQt/service-3.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Airbag Service",
         "id":4,
         "price": 4000,
-        "time": 2,
-        "img": "https://ibb.co/y4Fm6pg",
+        "time": 2.2,
+        "img": "https://i.ibb.co/Z2zRBSc/service-4.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Bodywork",
         "id":5,
         "price": 5000,
-        "time": 2,
-        "img": "https://ibb.co/C11LdLR",
+        "time": 2.7,
+        "img": "https://i.ibb.co/8KKk3k1/service-5.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Wheel Alignment",
         "id":6,
         "price": 6000,
-        "time": 2,
-        "img": "https://ibb.co/ZhwYBwj",
+        "time": 5,
+        "img": "https://i.ibb.co/qR4WN4S/service-6.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Replace Your Wiper Blades",
         "id":7,
         "price": 7000,
-        "time": 2,
-        "img": "https://ibb.co/t4n2Ncc",
+        "time": 3,
+        "img": "https://i.ibb.co/47CSDMM/service-7.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     },
     {
-        "name": "Car Reapire",
+        "name": "Shake Your PCV Valve",
         "id":8,
         "price": 8000,
-        "time": 2,
-        "img": "https://ibb.co/mJMLmck",
+        "time": 4,
+        "img": "https://i.ibb.co/NxH8Xy5/service-8.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
     }
 ]
