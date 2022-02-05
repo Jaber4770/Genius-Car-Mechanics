@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Car Reapire",
+        "id":1,
+        "price": 1000,
+        "time": 2,
+        "img": "https://ibb.co/Cz4h1Yg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":2,
+        "price": 2000,
+        "time": 2,
+        "img": "https://ibb.co/B2yfRrt",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":3,
+        "price": 3000,
+        "time": 2,
+        "img": "https://ibb.co/nwV71SN",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":4,
+        "price": 4000,
+        "time": 2,
+        "img": "https://ibb.co/y4Fm6pg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":5,
+        "price": 5000,
+        "time": 2,
+        "img": "https://ibb.co/C11LdLR",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":6,
+        "price": 6000,
+        "time": 2,
+        "img": "https://ibb.co/ZhwYBwj",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":7,
+        "price": 7000,
+        "time": 2,
+        "img": "https://ibb.co/t4n2Ncc",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    },
+    {
+        "name": "Car Reapire",
+        "id":8,
+        "price": 8000,
+        "time": 2,
+        "img": "https://ibb.co/mJMLmck",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor."
+    }
+]
