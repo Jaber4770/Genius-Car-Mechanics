@@ -12,7 +12,7 @@ const Exparts = () => {
     
     return (
         <div>
-            <h1 className='text-primary'>Our Exparts!</h1>
+            <h1 className='text-primary'>Our Exparts</h1>
             <div className='container mb-5 mt-2'>
                 <div className='row-center'>
                     <div className='row'>
