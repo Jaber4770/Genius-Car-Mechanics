@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Expart from '../Expart/Expart';
+import "./Exparts.css"
 
 const Exparts = () => {
     const [exparts, setExparts] = useState([]);
@@ -10,14 +11,18 @@ const Exparts = () => {
     }, [])
     return (
         <div>
-            <h1>Our Exparts!</h1>
-            <div className='services-container container my-5'>
-                {
-                    exparts.map(expart => <Expart
-                        key={expart.id}
-                        expart={expart}
-                    ></Expart>)
-                }
+            <h1 className='text-primary'>Our Exparts!</h1>
+            <div className='container my-5'>
+                <div className='row-center'>
+                    <div className='row'>
+                        {
+                            exparts.map(expart => <Expart
+                                key={expart.id}
+                                expart={expart}
+                            ></Expart>)
+                        }
+                    </div>
+                </div>
             </div>
         </div>
     );
