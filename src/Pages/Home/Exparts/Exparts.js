@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Expart from '../Expart/Expart';
-import "./Exparts.css"
+import "./Exparts.css";
 
 const Exparts = () => {
     const [exparts, setExparts] = useState([]);
@@ -9,6 +9,7 @@ const Exparts = () => {
             .then(res => res.json())
             .then(data => setExparts(data));
     }, [])
+    
     return (
         <div>
             <h1 className='text-primary'>Our Exparts!</h1>
