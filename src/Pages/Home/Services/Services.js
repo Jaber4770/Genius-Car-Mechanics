@@ -11,7 +11,7 @@ const Services = () => {
             .then(data => setServices(data));
     }, [])
     return (
-        <div className='services-container'>
+        <div className='services-container container my-5'>
             {
                 services.map(service => <Service
                     key={service.id}

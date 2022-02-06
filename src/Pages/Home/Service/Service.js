@@ -6,8 +6,8 @@ const Service = ({ service }) => {
     return (
         <div className='service'>
             <img className='img-brdr-rds' src={img} alt="img" />
-            <h2>Name: {name}</h2>
-            <h3>Price: {price}Tk</h3>
+            <h3>Name: {name}</h3>
+            <h4>Price: {price}Tk</h4>
             <p>Required time: {time}</p>
             <p>Task details: {description}</p>
         </div>
