@@ -2,6 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
 import About from './Pages/About/About';
+import Booking from './Pages/Booking/Booking/Booking';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/booking/:serviceId'>
+            <Booking></Booking>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
