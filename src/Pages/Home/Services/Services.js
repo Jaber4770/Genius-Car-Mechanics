@@ -4,12 +4,13 @@ import './Services.css';
 
 const Services = () => {
     const [services, setServices] = useState([]);
-
+    
     useEffect(() => {
         fetch('servicesData.json')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
+
     return (
         <div id='services'>
             <h1 className='text-primary mt-5 mb-3'>Our Services</h1>

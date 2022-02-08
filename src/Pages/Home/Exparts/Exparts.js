@@ -11,9 +11,9 @@ const Exparts = () => {
     }, [])
     
     return (
-        <div id='About'>
+        <div id='about'>
             <h1 className='text-primary'>Our Exparts</h1>
-            <div className='container mb-5 mt-3'>
+            <div className='container mb-5 mt-3 w-75'>
                 <div className='row-center'>
                     <div className='row'>
                         {
