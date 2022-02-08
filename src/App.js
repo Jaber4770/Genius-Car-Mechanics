@@ -4,10 +4,11 @@ import './App.css';
 import About from './Pages/About/About';
 import Booking from './Pages/Booking/Booking/Booking';
 import Contact from './Pages/Contact/Contact';
-import Footer from './Pages/Footer/Footer';
-import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home/Home';
+import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
+import Footer from './Pages/Shared/Footer/Footer';
+import Header from './Pages/Shared/Header/Header';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/login'>
+            <Login></Login>
           </Route>
           <Route path='/booking/:serviceId'>
             <Booking></Booking>

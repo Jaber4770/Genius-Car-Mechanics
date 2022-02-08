@@ -11,7 +11,7 @@ const Exparts = () => {
     }, [])
     
     return (
-        <div>
+        <div id='About'>
             <h1 className='text-primary'>Our Exparts</h1>
             <div className='container mb-5 mt-3'>
                 <div className='row-center'>
