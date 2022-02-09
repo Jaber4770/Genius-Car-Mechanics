@@ -12,7 +12,7 @@ const Service = ({ service }) => {
             <p>Required time: {time}</p>
             <p>Task details: {description}</p>
             <Link to={`/booking/${id}`}>
-                <button type="button" class="btn btn-outline-primary">Book {name.toLowerCase()}</button>
+                <button type="button" className="btn btn-outline-primary">Book {name.toLowerCase()}</button>
             </Link>
         </div>
     );
