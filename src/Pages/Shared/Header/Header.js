@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import './Header.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const { user, logOut } = useAuth();
@@ -10,15 +11,15 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg="white" className='border' sticky="top">
                 <Container>
-                    <Navbar.Brand as={Link} to="/home#home">
+                    <Navbar.Brand as={HashLink} to="/home#home">
                         <img className='width' src="https://i.ibb.co/d2Nt3GJ/favicon-1.jpg" alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={Link} to="/home#home">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/home#services">Services</Nav.Link>
-                        <Nav.Link as={Link} to="/home#about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
+                        <Nav.Link as={HashLink} to="/Contact">Contact</Nav.Link>
                         {user?.email
                             ? <div>
                                 <Navbar.Text>
