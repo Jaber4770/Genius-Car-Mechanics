@@ -7,7 +7,7 @@ const Login = () => {
         <div>
             <h1>Login your account!</h1>
             <h3>Login only availabe by Google</h3>
-            <button onClick={SignInUsingGoogle} type="button" class="btn btn-outline-success">Google</button>
+            <button onClick={SignInUsingGoogle} type="button" className="btn btn-outline-success">Google</button>
         </div>
     );
 };

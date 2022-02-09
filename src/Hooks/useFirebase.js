@@ -4,41 +4,47 @@ import initializeAuthentication from '../Pages/Login/Firebase/firebase.init';
 initializeAuthentication();
 
 const useFirebase = () => {
-    const [users, setUsers] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
+    const [user, setUsers] = useState({});
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
 
     // sign in with google account
     const SignInUsingGoogle = () => {
+        setIsLoading(true);
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 setUsers(result.user);
             })
+            .finally(() => setIsLoading(false));
     }
 
     // observe user state change
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (user) => {
+        const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
                 setUsers(user);
             }
             else {
                 setUsers({});
             }
-        })
-        return () => unsubscribe;
+            setIsLoading(false);
+        });
+        return () => unsubscribed;
     }, [])
 
     // Log out from the site
     const logOut = () => {
+        setIsLoading(true);
         signOut(auth)
             .then(() => {
-                setUsers({});
+                setUsers({})
+                .finally(()=> setIsLoading(false));
             })
     }
 
     return {
-        users,
+        user,
         logOut,
         SignInUsingGoogle
     }
