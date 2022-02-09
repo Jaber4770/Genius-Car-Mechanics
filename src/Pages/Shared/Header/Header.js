@@ -28,7 +28,7 @@ const Header = () => {
                                 <button onClick={logOut}>LogOut</button>
                             </div>
                             :
-                            <Nav.Link as={Link} to="/login">Log In</Nav.Link>
+                            <Nav.Link as={HashLink} to="/login">Log In</Nav.Link>
                         }
                     </Navbar.Collapse>
                 </Container>
